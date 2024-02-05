@@ -138,7 +138,7 @@ d3.csv("../Data/cgSector.csv").then((data) => {
         .attr("style", `width: ${width}px`) // Set the width of the slider to the full width of the chart
         
 
-	const selectedDate = d3.select("#selectedDate");
+    const selectedDate = d3.select("#selectedDate");
 
 	slider.on("input", function () {
 		const selectedValue = this.value;
@@ -171,7 +171,7 @@ d3.csv("../Data/cgSector.csv").then((data) => {
 			.text((d) => d.Sector);
 
 		// Update selected date display
-		selectedDate.text(`Selected Date: ${selectedData[0].Date.toDateString()}`);
+		selectedDate.text(`${selectedData[0].Date.toDateString()}`);
 	});
 
 });
