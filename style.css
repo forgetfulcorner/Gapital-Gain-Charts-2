@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "BeVietnamPro-Light";
+  src: url('../Fonts/BeVietnamPro-Light.otf');
+  font-family: "BeVietnamPro-Regular";
+  src: url('../Fonts/BeVietnamPro-Regular.otf');
+  font-family: "BeVietnamPro-SemiBold";
+  src: url('../Fonts/BeVietnamPro-SemiBold.otf');
+}
+
+#capGainSector-container {
+}
+
+
+#cgSectorBarPos {
+    fill:#7FF224;
+}
+
+.cap-gain-label {
+    font-size: 12px;
+    font-family: "BeVietnamPro-SemiBold", Arial;
+}
+
+#cgSectorBarNeg {
+    fill:#F0305E;
+}
+
+
+text {
+    font-size: 9px;
+    font-family: "BeVietnamPro-Light", Arial;
+    text-transform: uppercase;
+    fill:#F5F5F5;
+}
+
+#capGainIndustry-container {
+
+}
+
+#contrastBars {
+    fill:#1B2827;
+    z-index: -5;
+}
+
+
+body {
+    overflow: hidden;
+    background-color: #041211;
+}
+
+.tick line{
+  /* visibility:hidden; */
+  stroke: #343F3F;
+}
+
+
+#sliderDiv {
+    margin-left: 100px;
+}
