@@ -41,7 +41,7 @@ const svg = d3
 	.attr("transform", `translate(${margin.left},${margin.top})`);
 
 // Load the CSV data
-d3.csv("../Data/cgSector.csv").then((data) => {
+d3.csv("./Data/cgSector.csv").then((data) => {
 	// Process data
 	data.forEach((d) => {
 		d.Date = parseDate(d.Date);

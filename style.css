@@ -1,10 +1,10 @@
 @font-face {
   font-family: "BeVietnamPro-Light";
-  src: url('../Fonts/BeVietnamPro-Light.otf');
+  src: url('/Fonts/BeVietnamPro-Light.otf');
   font-family: "BeVietnamPro-Regular";
-  src: url('../Fonts/BeVietnamPro-Regular.otf');
+  src: url('/Fonts/BeVietnamPro-Regular.otf');
   font-family: "BeVietnamPro-SemiBold";
-  src: url('../Fonts/BeVietnamPro-SemiBold.otf');
+  src: url('/Fonts/BeVietnamPro-SemiBold.otf');
 }
 
 .grid {
@@ -80,6 +80,7 @@ input:hover {
     height: 1.5rem;
     width: 0.5rem;  
 }
+<<<<<<< HEAD
 
 .tooltip {
     font-size: 12px;
@@ -91,3 +92,5 @@ input:hover {
     color: white;
     outline: 1px solid white;
 }
+=======
+>>>>>>> bc6c914b501fc99f0f2698d16682132dcdf8452b
