@@ -7,12 +7,8 @@
   src: url('../Fonts/BeVietnamPro-SemiBold.otf');
 }
 
-#capGainSector-container {
-}
-
-
-#cgSectorBarPos {
-    fill:#7FF224;
+.grid {
+    outline: 0px solid white;
 }
 
 .cap-gain-label {
@@ -20,20 +16,11 @@
     font-family: "BeVietnamPro-SemiBold", Arial;
 }
 
-#cgSectorBarNeg {
-    fill:#F0305E;
-}
-
-
 text {
     font-size: 9px;
     font-family: "BeVietnamPro-Light", Arial;
     text-transform: uppercase;
     fill:#F5F5F5;
-}
-
-#capGainIndustry-container {
-
 }
 
 #contrastBars {
@@ -92,4 +79,15 @@ input:hover {
     background-color: #ffffff;
     height: 1.5rem;
     width: 0.5rem;  
+}
+
+.tooltip {
+    font-size: 12px;
+    line-height: 1.2rem;
+    font-family: "BeVietnamPro-SemiBold", Arial;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #041211;
+    color: white;
+    outline: 1px solid white;
 }
