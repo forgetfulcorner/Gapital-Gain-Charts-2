@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "BeVietnamPro-Light";
+  src: url('../Fonts/BeVietnamPro-Light.otf');
+  font-family: "BeVietnamPro-Regular";
+  src: url('../Fonts/BeVietnamPro-Regular.otf');
+  font-family: "BeVietnamPro-SemiBold";
+  src: url('../Fonts/BeVietnamPro-SemiBold.otf');
+}
+
+.grid {
+    outline: 0px solid white;
+}
+
+.cap-gain-label {
+    font-size: 12px;
+    font-family: "BeVietnamPro-SemiBold", Arial;
+}
+
+text {
+    font-size: 9px;
+    font-family: "BeVietnamPro-Light", Arial;
+    text-transform: uppercase;
+    fill:#F5F5F5;
+}
+
+#contrastBars {
+    fill:#1B2827;
+    z-index: -5;
+}
+
+
+body {
+    overflow: hidden;
+    background-color: #041211;
+}
+
+.tick line{
+  /* visibility:hidden; */
+  stroke: #343F3F;
+}
+
+
+#sliderDiv {
+    margin-left: 100px;
+}
+
+.centered {
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: "BeVietnamPro-Regular", Arial;
+    text-transform: uppercase;
+    color:#F5F5F5;
+}
+
+input {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 0px; /* Specified height */
+  border-radius: 200px;
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.15; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  margin-left: 4px;
+  margin-right: 80px;
+}
+
+input:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+  
+}
+
+::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    height: 34rem;
+    width: 0.1rem;  
+    z-index: -5;
+}
+
+.tooltip {
+    font-size: 12px;
+    line-height: 1.2rem;
+    font-family: "BeVietnamPro-SemiBold", Arial;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #041211;
+    color: white;
+    outline: 1px solid white;
+}

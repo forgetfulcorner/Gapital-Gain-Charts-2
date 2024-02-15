@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D3.js Bar Chart with Slider</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+
+    <body>
+
+        <div id="cgSectorChart"></div>
+        <div id="cgIndustryChart"></div>
+
+        <div class="centered">
+            <H1 id="selectedDate"></H1>
+        </div>
+
+        <div id="cgNetChart"></div>
+        <div id="sp500Chart"></div>
+
+        <div id="sliderDiv">
+            <!-- <label for="dateSlider">Select Date:</label> -->
+            <br>
+            <input type="range" id="dateSlider" min="0" max="110" step="1" value="20">
+            <br>
+            <span id="selectedDate"></span>
+        </div>
+
+        <script src="test6.js"></script>
+    </body>
+
+</html>
