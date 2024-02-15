@@ -73,7 +73,7 @@ const svg4 = d3
 	.attr("transform", `translate(${margin.left},${margin.top})`);
     
 // Load the CSV data
-d3.csv("../Data/cgIndustryCompiled.csv").then((data) => {
+d3.csv("./Data/cgIndustryCompiled.csv").then((data) => {
 
 	// Process data. This mutates the data set.
     data.forEach((d) => {
