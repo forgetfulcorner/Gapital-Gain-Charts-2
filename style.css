@@ -1,10 +1,10 @@
 @font-face {
   font-family: "BeVietnamPro-Light";
-  src: url('../Fonts/BeVietnamPro-Light.otf');
+  src: url('./Fonts/BeVietnamPro-Light.otf');
   font-family: "BeVietnamPro-Regular";
-  src: url('../Fonts/BeVietnamPro-Regular.otf');
+  src: url('./Fonts/BeVietnamPro-Regular.otf');
   font-family: "BeVietnamPro-SemiBold";
-  src: url('../Fonts/BeVietnamPro-SemiBold.otf');
+  src: url('./Fonts/BeVietnamPro-SemiBold.otf');
 }
 
 .grid {
